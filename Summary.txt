@@ -1,0 +1,12 @@
+I performed data cleaning by removing missing values, converting 'Order Date' to datetime format, and dropping non-contributing columns. Outliers in 'Sales', 'Quantity', and 'Profit' were removed using the IQR method. Numerical columns were standardized using `StandardScaler`. Hierarchical encoding was applied to 'City' and 'State', capturing their relationship, and other categorical columns were encoded using `LabelEncoder`.
+
+Key Finddings:
+California leads in total sales, followed by New York and Texas.
+Standard Class is the most used, especially in high-sales states like California, Texas, and New York. Same Day shipping is the least used.
+Chairs and Furnishings have significant sales in many states, while Tables and Bookcases are more concentrated in fewer states.
+The Consumer segment shows the highest sales, especially in California. Corporate and Home Office segments have concentrated sales in states like California and Colorado.
+The West region, particularly California, dominates sales, followed by the East and Central regions. The South has lower sales.
+Sales peak around the end of the year, with the West region and Standard Class shipping showing consistently higher sales.
+Chairs and Tables show significant sales peaks over time, indicating high demand periods. Bookcases and Furnishings also show variability in demand.
+
+
